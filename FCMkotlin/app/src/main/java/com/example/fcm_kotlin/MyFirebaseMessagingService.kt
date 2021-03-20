@@ -17,7 +17,7 @@ import com.google.firebase.messaging.RemoteMessage
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
     /** 푸시 알림으로 보낼 수 있는 메세지는 2가지
-     * 1. Notification: 앱이 실행중(포그라운드)일 떄만 푸시 알림이 옴
+     * 1. Notification: 앱이 실행중(포그라운드)일 때만 푸시 알림이 옴
      * 2. Data: 실행중이거나 백그라운드(앱이 실행중이지 않을때) 알림이 옴 -> TODO: 대부분 사용하는 방식 */
 
     private val TAG = "FirebaseService"
