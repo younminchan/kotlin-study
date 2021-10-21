@@ -1,0 +1,2 @@
+rootProject.name = "chani_study_kotlin"
+include ':app'
