@@ -12,3 +12,7 @@
 3. ViewBinding
 - 공부: https://minchanyoun.tistory.com/49
 - 코드: https://github.com/younminchan/Daily-study/tree/main/ViewBinding_kotlin
+
+4. LiveData
+- 공부:
+- 코드:
