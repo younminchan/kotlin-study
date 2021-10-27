@@ -14,5 +14,5 @@
 - 코드: https://github.com/younminchan/Daily-study/tree/main/ViewBinding_kotlin
 
 4. LiveData
-- 공부:
-- 코드:
+- 공부: https://minchanyoun.tistory.com/50
+- 코드: https://github.com/younminchan/Daily-study/tree/main/LiveData_kotlin
