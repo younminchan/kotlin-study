@@ -3,6 +3,7 @@ package com.example.livedata_kotlin
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
+//RandomNumberViewModel.kt
 class RandomNumberViewModel : ViewModel() {
 
     //Create a LiveData with a random number

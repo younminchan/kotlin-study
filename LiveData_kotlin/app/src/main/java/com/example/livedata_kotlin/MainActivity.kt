@@ -11,6 +11,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.example.livedata_kotlin.databinding.ActivityMainBinding
 import java.util.*
 
+//MainActivity.kt
 class MainActivity : AppCompatActivity() {
     //binding
     private lateinit var binding: ActivityMainBinding
