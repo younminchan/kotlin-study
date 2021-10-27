@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
@@ -27,8 +28,10 @@ class MainActivity : AppCompatActivity() {
 
         //TODO: 예제1
         //Get the view model
-//        mModel = ViewModelProviders.of(this).get(RandomNumberViewModel::class.java) //방법1
-        mModel = ViewModelProvider(this).get(RandomNumberViewModel::class.java) //방법2
+//        (참고)Lifecycle -extension 라이브러리가 2.2.0으로 버전업하면서 ViewModelProviders는 Deprecate되었습니다
+//        mModel = ViewModelProviders.of(this).get(RandomNumberViewModel::class.java) //구버전
+
+        mModel = ViewModelProvider(this).get(RandomNumberViewModel::class.java) //신버전
 
         //Create the observer which updates the ui
         val randomNumberObserver = Observer<Int> { newNumber ->
