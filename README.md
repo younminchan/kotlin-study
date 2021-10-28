@@ -16,3 +16,7 @@
 4. LiveData
 - 공부: https://minchanyoun.tistory.com/50
 - 코드: https://github.com/younminchan/Daily-study/tree/main/LiveData_kotlin
+
+5. DataBinding
+- 공부: https://minchanyoun.tistory.com/52
+- 코드: https://github.com/younminchan/Daily-study/tree/main/DataBinding_kotlin
