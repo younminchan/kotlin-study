@@ -1,0 +1,2 @@
+rootProject.name = "DataBinding_kotlin"
+include ':app'
