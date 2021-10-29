@@ -1,0 +1,2 @@
+rootProject.name = "RecyclerView_DataBinding_kotlin"
+include ':app'
