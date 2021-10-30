@@ -3,6 +3,7 @@ package com.example.recyclerview_databinding_kotlin
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerview_databinding_kotlin.databinding.TalkItemRowBinding
 

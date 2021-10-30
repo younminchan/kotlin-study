@@ -5,7 +5,7 @@
 
         <variable
             name="talk_item_row"
-            type="com.example.recyclerview_databinding_kotlin.MainActivity" />
+            type="com.example.recyclerview_databinding_kotlin.TalkAdapter" />
     </data>
 
     <LinearLayout
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                android:text="테스트중입니다."
+                android:text="Text"
                 android:textColor="#000000"
                 android:textSize="16sp" />
 
