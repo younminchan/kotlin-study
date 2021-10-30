@@ -32,7 +32,7 @@ class TalkAdapter : RecyclerView.Adapter<TalkAdapter.TalkHolder>() {
 
     class TalkHolder(val binding: TalkItemRowBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(item: String){
-            binding.
+//            binding.
         }
     }
 
