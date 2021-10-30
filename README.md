@@ -20,3 +20,7 @@
 5. DataBinding
 - 공부: https://minchanyoun.tistory.com/52
 - 코드: https://github.com/younminchan/Daily-study/tree/main/DataBinding_kotlin
+
+6. RecyclerView / DataBinding
+- 공부: 
+- 코드: https://github.com/younminchan/Daily-study/tree/main/RecyclerView_DataBinding_kotlin
