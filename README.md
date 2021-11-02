@@ -26,6 +26,6 @@
 - 코드: https://github.com/younminchan/Daily-study/tree/main/RecyclerView_DataBinding_kotlin
 
 
-7. ViewModel
+7. Room / RecyclerView / DataBinding
 - 공부:
-- 코드:
+- 코드: https://github.com/younminchan/Daily-study/tree/main/Room_RecyclerView_kotlin
