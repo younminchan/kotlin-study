@@ -30,3 +30,4 @@
 - 공부:
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Room_RecyclerView_kotlin
 
+8. MVVM 패턴관련
