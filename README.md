@@ -31,5 +31,9 @@
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Room_RecyclerView_kotlin
 
 8. MVVM 패턴
+- 공부:
+- 코드: 
 
 9. Android Jetpack Navigation
+- 공부: https://minchanyoun.tistory.com/57
+- 코드: https://github.com/younminchan/Daily-study/tree/main/Jetpack_Navigation_kotlin
