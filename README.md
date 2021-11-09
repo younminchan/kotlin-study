@@ -32,4 +32,4 @@
 
 8. MVVM 패턴
 
-9. Navigation
+9. Android Jetpack Navigation
