@@ -1,5 +1,6 @@
 package com.example.jetpack_navigation_kotlin
 
+//MainActivity.kt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
