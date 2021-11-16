@@ -38,4 +38,6 @@
 - 공부: https://minchanyoun.tistory.com/57
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Jetpack_Navigation_kotlin
  
-  
+10. 코루틴은 왜 나온것인가?
+- 공부: 
+- 
