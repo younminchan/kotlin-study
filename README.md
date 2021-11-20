@@ -40,4 +40,7 @@
  
 10. 코루틴은 왜 나온것인가?
 - 공부: 
--  
+
+
+11. DataBinding, ViewBinding 차이
+- 공부: 
