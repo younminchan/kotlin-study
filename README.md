@@ -32,7 +32,7 @@
 
 8. MVVM 패턴
 - 공부:
-- 코드: 
+- 코드:  
 
 9. Android Jetpack Navigation
 - 공부: https://minchanyoun.tistory.com/57
