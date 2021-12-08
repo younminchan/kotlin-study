@@ -48,5 +48,5 @@
 12. Navigation Drawer
 - 공부:  
  
- 
+13. Android 11이상 버전에 대한 대응
  
