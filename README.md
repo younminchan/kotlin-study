@@ -61,3 +61,7 @@
 
 16. kotlin-naver-login
 - 공부:
+
+17. QRCode-Scan
+- 공부: https://minchanyoun.tistory.com/91
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/QRCode_kotlin
