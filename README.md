@@ -59,9 +59,15 @@
 - 공부: https://minchanyoun.tistory.com/86
 - 공부: https://minchanyoun.tistory.com/87
 
-16. kotlin-naver-login
-- 공부:
-
-17. QRCode-Scan
+16. QRCode-Scan
 - 공부: https://minchanyoun.tistory.com/91
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/QRCode_kotlin
+
+17. kotlin-naver-login
+- 공부:
+
+18. kotlin-facebook-login
+- 공부:
+
+19. kotlin-google-login
+- 공부:
