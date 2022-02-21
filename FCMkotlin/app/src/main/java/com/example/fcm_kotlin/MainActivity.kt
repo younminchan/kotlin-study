@@ -7,5 +7,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        //FCM
+        var fb = MyFirebaseMessagingService()
+        fb.getFirebaseToken() //FCM Token 가져오기
     }
 }
