@@ -20,6 +20,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     private val TAG = "FirebaseService"
 
     // FirebaseInstanceIdService는 이제 사라짐. 이제 이걸 사용함
+    /** Token 생성 메서드 */
     override fun onNewToken(token: String) {
         Log.d(TAG, "new Token: $token")
 
@@ -32,6 +33,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         Log.i("로그: ", "성공적으로 토큰을 저장함")
     }
 
+    /** 메시지 수신 메서드 */
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         Log.d(TAG, "From: " + remoteMessage!!.from)
 
@@ -53,6 +55,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         }
     }
 
+    /** 알림 생성 메서드 */
     private fun sendNotification(remoteMessage: RemoteMessage) {
         // RequestCode, Id를 고유값으로 지정하여 알림이 개별 표시되도록 함
         val uniId: Int = (System.currentTimeMillis() / 7).toInt()
@@ -78,8 +81,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             .setSound(soundUri) // 알림 소리
             .setContentIntent(pendingIntent) // 알림 실행 시 Intent
 
-        val notificationManager =
-            getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+        val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
         // 오레오 버전 이후에는 채널이 필요하다.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -91,15 +93,15 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         notificationManager.notify(uniId, notificationBuilder.build())
     }
 
-    fun getFirebaseToken() {
-        FirebaseMessaging.getInstance().token.addOnCompleteListener(
-            OnCompleteListener { task ->
+    /** Totken값 가져오기 */
+    fun getFirebaseToken(){
+        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
                 if (!task.isSuccessful) {
                     Log.d(TAG, "Fetching FCM registration token failed ${task.exception}")
                     return@OnCompleteListener
                 }
-                val token = task.result
-                Log.e(TAG, "token=${token}")
+                var deviceToken = task.result
+                Log.e(TAG, "token=${deviceToken}")
             })
     }
 }

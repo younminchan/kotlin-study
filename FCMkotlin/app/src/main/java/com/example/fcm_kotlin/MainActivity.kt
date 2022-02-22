@@ -2,14 +2,21 @@ package com.example.fcm_kotlin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.fcm_kotlin.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         //FCM
         var fb = MyFirebaseMessagingService()
-        fb.getFirebaseToken() //FCM Token 가져오기
+        binding.tvToken.text = fb.getFirebaseToken() //FCM Token 가져오기
+
+        //click
+
     }
 }
