@@ -1,76 +1,76 @@
 # Daily-study
 [Android 개발 관련 공부]
 
-1. Retrofit2: 
+* Retrofit2: 
 - 공부: https://minchanyoun.tistory.com/44?category=1013568
 - 코드: https://github.com/younminchan/Daily-study/tree/main/retrofit2_kotlin
 
-2. RecyclerView / Binding
+* RecyclerView / Binding
 - 공부: https://minchanyoun.tistory.com/47?category=1013568
 - 코드: https://github.com/younminchan/Daily-study/tree/main/RecyclerView_kotlin
 
-3. ViewBinding
+* ViewBinding
 - 공부: https://minchanyoun.tistory.com/49
 - 코드: https://github.com/younminchan/Daily-study/tree/main/ViewBinding_kotlin
 
-4. LiveData
+* LiveData
 - 공부: https://minchanyoun.tistory.com/50
 - 코드: https://github.com/younminchan/Daily-study/tree/main/LiveData_kotlin
 
-5. DataBinding
+* DataBinding
 - 공부: https://minchanyoun.tistory.com/52
 - 코드: https://github.com/younminchan/Daily-study/tree/main/DataBinding_kotlin
 
-6. RecyclerView / DataBinding
+* RecyclerView / DataBinding
 - 공부: 
 - 코드: https://github.com/younminchan/Daily-study/tree/main/RecyclerView_DataBinding_kotlin
 
 
-7. Room / RecyclerView / DataBinding
+* Room / RecyclerView / DataBinding
 - 공부:
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Room_RecyclerView_kotlin
 
-8. MVVM 패턴
+* MVVM 패턴
 - 공부: 
 - 코드:  
 
-9. Android Jetpack Navigation
+* Android Jetpack Navigation
 - 공부: https://minchanyoun.tistory.com/57
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Jetpack_Navigation_kotlin
  
-10. 코루틴은 왜 나온것인가?
+* 코루틴은 왜 나온것인가?
 - 공부: 
 
-
-11. DataBinding, ViewBinding 차이
+* DataBinding, ViewBinding 차이
 - 공부: 
  
-12. Navigation Drawer
+* Navigation Drawer
 - 공부:  
  
-13. Android 11이상 버전에 대한 대응
-
-14. kotlin-kakao-loin
-- 공부: 
-- 코드: 
+* Android 11이상 버전에 대한 대응
  
-15. koltin-kakao-login
+* koltin-kakao-login
 - 공부: https://minchanyoun.tistory.com/85
 - 공부: https://minchanyoun.tistory.com/86
 - 공부: https://minchanyoun.tistory.com/87
 
-16. QRCode-Scan
+* QRCode-Scan
 - 공부: https://minchanyoun.tistory.com/91
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/QRCode_kotlin
 
-17. kotlin-naver-login
+* kotlin-naver-login
 - 공부:
 
-18. kotlin-facebook-login
+* kotlin-facebook-login
 - 공부:
 
-19. kotlin-google-login
+* kotlin-google-login
 - 공부:
 
-20. SQLite
+* SQLite
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/SQLite-kotlin
+
+* DeepLink - 호출&수신
+- 공부: 
+- 코드(호출):
+- 코드(수신):
