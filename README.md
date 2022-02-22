@@ -1,76 +1,87 @@
 # Daily-study
 [Android 개발 관련 공부]
 
-1. Retrofit2: 
-- 공부: https://minchanyoun.tistory.com/44?category=1013568
+
+
+Retrofit2:
+- 정리: https://minchanyoun.tistory.com/44?category=1013568
 - 코드: https://github.com/younminchan/Daily-study/tree/main/retrofit2_kotlin
 
-2. RecyclerView / Binding
-- 공부: https://minchanyoun.tistory.com/47?category=1013568
+RecyclerView / Binding:
+- 정리: https://minchanyoun.tistory.com/47?category=1013568
 - 코드: https://github.com/younminchan/Daily-study/tree/main/RecyclerView_kotlin
 
-3. ViewBinding
-- 공부: https://minchanyoun.tistory.com/49
+ViewBinding:
+- 정리: https://minchanyoun.tistory.com/49
 - 코드: https://github.com/younminchan/Daily-study/tree/main/ViewBinding_kotlin
 
-4. LiveData
-- 공부: https://minchanyoun.tistory.com/50
+LiveData
+- 정리: https://minchanyoun.tistory.com/50
 - 코드: https://github.com/younminchan/Daily-study/tree/main/LiveData_kotlin
 
-5. DataBinding
-- 공부: https://minchanyoun.tistory.com/52
+DataBinding
+- 정리: https://minchanyoun.tistory.com/52
 - 코드: https://github.com/younminchan/Daily-study/tree/main/DataBinding_kotlin
 
-6. RecyclerView / DataBinding
-- 공부: 
+RecyclerView / DataBinding
+- 정리: 
 - 코드: https://github.com/younminchan/Daily-study/tree/main/RecyclerView_DataBinding_kotlin
 
-
-7. Room / RecyclerView / DataBinding
-- 공부:
+Room / RecyclerView / DataBinding
+- 정리:
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Room_RecyclerView_kotlin
 
-8. MVVM 패턴
-- 공부: 
+MVVM 패턴
+- 정리: 
 - 코드:  
 
-9. Android Jetpack Navigation
-- 공부: https://minchanyoun.tistory.com/57
+Android Jetpack Navigation
+- 정리: https://minchanyoun.tistory.com/57
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Jetpack_Navigation_kotlin
  
-10. 코루틴은 왜 나온것인가?
-- 공부: 
+코루틴은 왜 나온것인가?
+- 정리: 
+- 코드:
 
-
-11. DataBinding, ViewBinding 차이
-- 공부: 
- 
-12. Navigation Drawer
-- 공부:  
- 
-13. Android 11이상 버전에 대한 대응
-
-14. kotlin-kakao-loin
-- 공부: 
+DataBinding, ViewBinding 차이
+- 정리:
 - 코드: 
  
-15. koltin-kakao-login
-- 공부: https://minchanyoun.tistory.com/85
-- 공부: https://minchanyoun.tistory.com/86
-- 공부: https://minchanyoun.tistory.com/87
+Navigation Drawer
+- 정리:
+- 코드:  
+ 
+Android 11이상 버전에 대한 대응
+ - 정리:
+ - 코드:
 
-16. QRCode-Scan
-- 공부: https://minchanyoun.tistory.com/91
+koltin-kakao-login
+- 정리: https://minchanyoun.tistory.com/85
+- 정리: https://minchanyoun.tistory.com/86
+- 정리: https://minchanyoun.tistory.com/87
+- 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-kakao-login
+
+kotlin-naver-login
+- 정리:
+- 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-naver-login
+
+kotlin-facebook-login
+- 정리:
+- 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-facebook-login
+
+kotlin-google-login
+- 정리:
+- 코드:
+
+QRCode-Scan
+- 정리: https://minchanyoun.tistory.com/91
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/QRCode_kotlin
 
-17. kotlin-naver-login
-- 공부:
-
-18. kotlin-facebook-login
-- 공부:
-
-19. kotlin-google-login
-- 공부:
-
-20. SQLite
+SQLite
+- 정리: 
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/SQLite-kotlin
+
+DeepLink - 호출&수신
+- 공부: 
+- 코드(호출):
+- 코드(수신):
