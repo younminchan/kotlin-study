@@ -59,23 +59,23 @@ koltin-kakao-login
 - 정리: https://minchanyoun.tistory.com/85
 - 정리: https://minchanyoun.tistory.com/86
 - 정리: https://minchanyoun.tistory.com/87
-- 코드: 
-
-QRCode-Scan
-- 정리: https://minchanyoun.tistory.com/91
-- 코드: https://github.com/younminchan/kotlin-study/tree/main/QRCode_kotlin
+- 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-kakao-login
 
 kotlin-naver-login
 - 정리:
-- 코드:
+- 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-naver-login
 
 kotlin-facebook-login
 - 정리:
-- 코드:
+- 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-facebook-login
 
 kotlin-google-login
 - 정리:
 - 코드:
+
+QRCode-Scan
+- 정리: https://minchanyoun.tistory.com/91
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/QRCode_kotlin
 
 SQLite
 - 정리: 
