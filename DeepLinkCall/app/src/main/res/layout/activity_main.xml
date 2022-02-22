@@ -7,9 +7,15 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv_deepLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:background="#00FFFF"
+        android:padding="20dp"
+        android:text="DeepLink 호출"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
