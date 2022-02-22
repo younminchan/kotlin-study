@@ -13,10 +13,20 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+            <!-- 시작 지점 -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- DeepLink -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="deeplink" android:host="host"  />
             </intent-filter>
         </activity>
 
