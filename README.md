@@ -1,7 +1,7 @@
 # Daily-study
 [Android 개발 관련 공부]
 
-* Retrofit2: 
+[Retrofit2]: 
 - 공부: https://minchanyoun.tistory.com/44?category=1013568
 - 코드: https://github.com/younminchan/Daily-study/tree/main/retrofit2_kotlin
 
