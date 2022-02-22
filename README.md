@@ -81,7 +81,9 @@ SQLite
 - 정리: 
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/SQLite-kotlin
 
-DeepLink - 호출&수신
-- 공부: 
-- 코드(호출):
-- 코드(수신):
+DeepLink(딥링크) - 호출&수신
+- 정리(호출): https://minchanyoun.tistory.com/96 
+- 코드(호출): https://github.com/younminchan/kotlin-study/tree/main/DeepLinkCall_kotlin
+- 
+- 정리(수신): https://minchanyoun.tistory.com/97
+- 코드(수신): https://github.com/younminchan/kotlin-study/tree/main/DeepLinkreceive_kotlin
