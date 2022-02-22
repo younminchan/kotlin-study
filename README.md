@@ -84,6 +84,6 @@ SQLite
 DeepLink(딥링크) - 호출&수신
 - 정리(호출): https://minchanyoun.tistory.com/96 
 - 코드(호출): https://github.com/younminchan/kotlin-study/tree/main/DeepLinkCall_kotlin
-- 
+
 - 정리(수신): https://minchanyoun.tistory.com/97
 - 코드(수신): https://github.com/younminchan/kotlin-study/tree/main/DeepLinkreceive_kotlin
