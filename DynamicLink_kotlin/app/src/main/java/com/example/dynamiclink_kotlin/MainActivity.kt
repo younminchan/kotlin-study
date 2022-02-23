@@ -22,6 +22,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     /** DynamicLink */
+    /** Firebase쪽 부분이 제대로 설정이 되었다는 전제
+     * 단축URL: https://deeplink2022.page.link/1  ("~~~.page.link" -> firebase쪽에서 제공하는 url)
+     * 딥링크: https://shopping.naver.com/home/p/index.naver  (앱내 딥링크가 존재하지 않을시 다른URL로 돌아가는 것을 확인하기 위해 naverShopping으로 임시 지정)
+     *
+     * (설명)
+     * 단축URL을 앱 또는 브라우저에서 실행 시 -> Firebase쪽에서 수신을 통해 딥링크로 변경을 해줌
+     * firebase쪽에서 Flow가 어떻게 돌아가는지 확인 할 수 있으며
+     * 또 해당 딥링크로 변환했을시 앱에서 scheme를 "https", host를 "shopping.naver.com/home"으로 해당되는 딥링크를 수신처리
+     * 만약 해당되는 앱이 없을 시 딥링크 URL를 그대로 띄우거나 구글, 앱스토어마켓으로 이동시킴! */
     fun initDynamicLinks() {
         /** 딥링크 수신*/
         FirebaseDynamicLinks.getInstance()
@@ -31,8 +40,6 @@ class MainActivity : AppCompatActivity() {
                 if (it != null) {
                     /** 딥링크 데이터 수신성공 */
                     deppLink = it.link
-
-                    //TODO: 단축URL: https://deeplink2022.page.link/1  ,  딥링크: https://shopping.naver.com/home/p/index.naver
                     Log.e("YMC", "deppLink: ${deppLink?.path}") //deepLink:    /home/p/index.naver
 
 //                    val eventNo = deppLink?.path!!.replace("/data/", "")
