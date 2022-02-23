@@ -13,7 +13,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <!-- 시작 지점 -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,15 +25,8 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https" android:host="shopping.naver.com/home"/>
-                <data android:scheme="http" android:host="shopping.naver.com/home"/>
-
-<!--                <data android:scheme="https" android:host="deeplink2022.page.link/data"/>-->
-<!--                <data android:scheme="http" android:host="deeplink2022.page.link/data"/>-->
-<!--                https://deeplink2022.page.link/data/deeplinkdata-->
-
+                <data android:scheme="deeplink" android:host="host"/>
             </intent-filter>
-
         </activity>
 
     </application>
