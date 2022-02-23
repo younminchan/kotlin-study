@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         //FCM
         var fb = MyFirebaseMessagingService()
-        binding.tvToken.text = fb.getFirebaseToken() //FCM Token 가져오기
+        fb.getFirebaseToken() //FCM Token 가져오기
 
         //click
 

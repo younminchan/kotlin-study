@@ -26,8 +26,15 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="deeplink" android:host="host"  />
+                <data android:scheme="https" android:host="shopping.naver.com/home"/>
+                <data android:scheme="http" android:host="shopping.naver.com/home"/>
+
+<!--                <data android:scheme="https" android:host="deeplink2022.page.link/data"/>-->
+<!--                <data android:scheme="http" android:host="deeplink2022.page.link/data"/>-->
+<!--                https://deeplink2022.page.link/data/deeplinkdata-->
+
             </intent-filter>
+
         </activity>
 
     </application>
