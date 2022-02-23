@@ -72,9 +72,12 @@ class MainActivity : AppCompatActivity() {
                 if (it != null) {
                     /** 딥링크 데이터 수신성공 */
                     deppLink = it.link
-                    val eventNo = deppLink?.path!!.replace("/data/", "")
-                    Log.e("YMC","deppLink: ${deppLink?.path}")
-                    Log.e("YMC","eventNo: ${eventNo}")
+
+                    //TODO: 단축URL: https://deeplink2022.page.link/1  ,  딥링크: https://shopping.naver.com/home/p/index.naver
+                    Log.e("YMC","deppLink: ${deppLink?.path}") //deepLink:    /home/p/index.naver
+
+//                    val eventNo = deppLink?.path!!.replace("/data/", "")
+//                    Log.e("YMC","eventNo: ${eventNo}")
                 } else {
                     // handle
                 }
