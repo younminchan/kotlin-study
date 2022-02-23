@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         /** Click-Listener */
         binding.tvDeepLink.setOnClickListener {
-            try { 
+            try {
                 var url = "deeplink://host?data1=DeepLinkData1&data2=DeepLinkData2"
                 var intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
                 intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK //새로운 창
