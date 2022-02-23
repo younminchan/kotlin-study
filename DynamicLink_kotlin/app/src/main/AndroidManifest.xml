@@ -14,8 +14,16 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- DynamicLink -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="shopping.naver.com/home"/>
+                <data android:scheme="http"  android:host="shopping.naver.com/home"/>
             </intent-filter>
         </activity>
     </application>
