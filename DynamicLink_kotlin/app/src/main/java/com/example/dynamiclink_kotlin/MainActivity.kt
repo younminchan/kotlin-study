@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
             )
             .buildDynamicLink()
 //            .uri.toString()
-            .uri.toString() + "/event/1"  //  https://DEEPLINK_URL/event/3 의 형태로 만들기 위해 추가
+            .uri.toString() + "/event/1"  //  https://DEEPLINK_URL/event/1 의 형태로 만들기 위해 추가
     }
 //
 
