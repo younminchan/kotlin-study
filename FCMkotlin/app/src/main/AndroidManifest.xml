@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fcm_kotlin">
 
+    <!--   INTERNET 퍼미션 추가!   -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,11 +27,25 @@
         <service
             android:name=".MyFirebaseMessagingService"
             android:enabled="true"
-            android:exported="true">
+            android:exported="true"
+            android:stopWithTask="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+        <!--
+            TODO: enabled: 시스템에서 활동을 인스턴스화할 수 있는지 여부
+            true: 인스턴스화 가능(기본값)
+            flase: 인스턴스화 불가능
+
+            TODO: exported: 다른 애플리케이션의 구성요소에서 활동을 시작할 수 있는지를 설정
+            'true': 모든 앱에서 활동에 액세스할 수 있으며 정확한 클래스 이름으로 활동을 시작할 수 있습니다.
+            'false': 활동은 같은 애플리케이션의 구성요소나 사용자 ID가 같은 애플리케이션, 권한이 있는 시스템 구성요소에서만 시작될 수 있음. 이는 인텐트 필터가 없는 경우의 기본값
+
+            TODO: stopWithTask: 휴대폰의 태스크에서 모두닫기 및 스와이프했을때 현상
+            true: 휴대폰의 태스크에서 모두닫기 및 스와이프 했을 때 액티비는 종료되고 서비스도 종료
+            false: 휴대폰의 태스크에서 모두닫기 및 스와이프 했을 때 액티비티는 종료되고 서비스는 onTackRemoved() 호출이 되며 곧바로 서비스가 재시작되어 onCreate()를 타게 된다.
+        -->
 
     </application>
 
