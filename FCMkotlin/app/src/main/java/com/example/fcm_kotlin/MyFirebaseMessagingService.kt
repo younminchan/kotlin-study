@@ -61,15 +61,20 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         // RequestCode, Id를 고유값으로 지정하여 알림이 개별 표시
         val uniId: Int = (System.currentTimeMillis() / 7).toInt()
 
-        //이동할 Activity를 지정하여 intent하는 방법
+        //TODO: (방법1)이동할 Activity 지정하여 intent 방법
 //        val resultIntent = Intent(this, ResultActivity::class.java)
+//        for(key in remoteMessage.data.keys){
+//            resultIntent.putExtra(key, remoteMessage.data.getValue(key))
+//        }
+//        resultIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) // Activity Stack 을 경로만 남김(A-B-C-D-B => A-B)
 //        val stackBuilder: TaskStackBuilder = TaskStackBuilder.create(this)
 //        stackBuilder.addParentStack(ResultActivity::class.java)
 //        stackBuilder.addNextIntent(resultIntent)
 //        val resultPendingIntent: PendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
 
 
-        // 일회용 PendingIntent : Intent 의 실행 권한을 외부의 어플리케이션에게 위임
+        //TODO: (방법2)일반적인 intent 데이터 넘겨주는 방법
+        //일회용 PendingIntent : Intent 의 실행 권한을 외부의 어플리케이션에게 위임
         val intent = Intent(this, MainActivity::class.java)
         //각 key, value 추가
         for(key in remoteMessage.data.keys){
@@ -91,6 +96,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             .setAutoCancel(true) // 알람클릭시 삭제여부
             .setSound(soundUri)  // 알림 소리
             .setContentIntent(pendingIntent) // 알림 실행 시 Intent
+//            .setContentIntent(resultPendingIntent)
 
         val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
