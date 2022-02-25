@@ -46,6 +46,16 @@
             false: 휴대폰의 태스크에서 모두닫기 및 스와이프 했을 때 액티비티는 종료되고 서비스는 onTackRemoved() 호출이 되며 곧바로 서비스가 재시작되어 onCreate()를 타게 된다.
         -->
 
+
+        <!-- Firebase Intent에 따른 이동되어지는 Activity -->
+        <activity
+            android:name=".ResultActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
     </application>
 
 </manifest>

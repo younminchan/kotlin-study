@@ -3,13 +3,13 @@ package com.example.fcm_kotlin
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
+import android.app.TaskStackBuilder
 import android.content.Context
 import android.content.Intent
 import android.media.RingtoneManager
 import android.os.Build
 import android.util.Log
 import androidx.core.app.NotificationCompat
-import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
@@ -60,6 +60,14 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     private fun sendNotification(remoteMessage: RemoteMessage) {
         // RequestCode, Id를 고유값으로 지정하여 알림이 개별 표시
         val uniId: Int = (System.currentTimeMillis() / 7).toInt()
+
+        //이동할 Activity를 지정하여 intent하는 방법
+//        val resultIntent = Intent(this, ResultActivity::class.java)
+//        val stackBuilder: TaskStackBuilder = TaskStackBuilder.create(this)
+//        stackBuilder.addParentStack(ResultActivity::class.java)
+//        stackBuilder.addNextIntent(resultIntent)
+//        val resultPendingIntent: PendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
+
 
         // 일회용 PendingIntent : Intent 의 실행 권한을 외부의 어플리케이션에게 위임
         val intent = Intent(this, MainActivity::class.java)
