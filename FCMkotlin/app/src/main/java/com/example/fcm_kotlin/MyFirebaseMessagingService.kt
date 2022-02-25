@@ -62,15 +62,15 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         val uniId: Int = (System.currentTimeMillis() / 7).toInt()
 
         //TODO: (방법1)이동할 Activity 지정하여 intent 방법
-//        val resultIntent = Intent(this, ResultActivity::class.java)
-//        for(key in remoteMessage.data.keys){
-//            resultIntent.putExtra(key, remoteMessage.data.getValue(key))
-//        }
-//        resultIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) // Activity Stack 을 경로만 남김(A-B-C-D-B => A-B)
-//        val stackBuilder: TaskStackBuilder = TaskStackBuilder.create(this)
-//        stackBuilder.addParentStack(ResultActivity::class.java)
-//        stackBuilder.addNextIntent(resultIntent)
-//        val resultPendingIntent: PendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
+        val resultIntent = Intent(this, ResultActivity::class.java)
+        for(key in remoteMessage.data.keys){
+            resultIntent.putExtra(key, remoteMessage.data.getValue(key))
+        }
+        resultIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) // Activity Stack 을 경로만 남김(A-B-C-D-B => A-B)
+        val stackBuilder: TaskStackBuilder = TaskStackBuilder.create(this)
+        stackBuilder.addParentStack(ResultActivity::class.java)
+        stackBuilder.addNextIntent(resultIntent)
+        val resultPendingIntent: PendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
 
 
         //TODO: (방법2)일반적인 intent 데이터 넘겨주는 방법
@@ -82,6 +82,8 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         }
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) // Activity Stack 을 경로만 남김(A-B-C-D-B => A-B)
         val pendingIntent = PendingIntent.getActivity(this, uniId, intent, PendingIntent.FLAG_ONE_SHOT)
+
+
 
         // 알림 채널 이름
         val channelId = "my_channel"
