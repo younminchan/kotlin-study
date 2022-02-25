@@ -38,8 +38,8 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         Log.d(TAG, "From: " + remoteMessage!!.from)
 
-        // Notification 메시지를 수신할 경우는
-        // remoteMessage.notification?.body!! 여기에 내용이 저장되어있다.
+        // Notification 메시지를 수신할 경우
+        // remoteMessage.notification?.body!! 여기에 내용이 저장되있음
         // Log.d(TAG, "Notification Message Body: " + remoteMessage.notification?.body!!)
 
         //받은 remoteMessage의 값 출력해보기. 데이터메세지 / 알림메세지
@@ -47,6 +47,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         Log.d(TAG, "Message noti : ${remoteMessage.notification}")
 
         if(remoteMessage.data.isNotEmpty()){
+            //알림생성
             sendNotification(remoteMessage)
 //            Log.d(TAG, remoteMessage.data["title"].toString())
 //            Log.d(TAG, remoteMessage.data["body"].toString())
@@ -95,7 +96,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         notificationManager.notify(uniId, notificationBuilder.build())
     }
 
-    /** Token값 가져오기 */
+    /** Token 가져오기 */
     fun getFirebaseToken() {
         FirebaseMessaging.getInstance().token.addOnSuccessListener {
             Log.d(TAG, "token=${it}")

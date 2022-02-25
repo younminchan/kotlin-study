@@ -1,10 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services' //FCM
 }
-//FCM
-apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdk 32
@@ -51,5 +49,7 @@ dependencies {
     //FCM
     implementation platform('com.google.firebase:firebase-bom:29.1.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
-    implementation 'com.google.firebase:firebase-messaging-ktx' //FCM-push
+    implementation 'com.google.firebase:firebase-messaging-ktx' //FCM
+
+//    implementation 'androidx.work:work-runtime:2.7.1'
 }
