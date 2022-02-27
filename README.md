@@ -92,3 +92,7 @@ FCM(Firebase Cloud Message)
 - 정리(1편): https://minchanyoun.tistory.com/99
 - 정리(2편): https://minchanyoun.tistory.com/101
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/FCMkotlin
+
+DynamicLink
+- 정리:
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/DynamicLink_kotlin
