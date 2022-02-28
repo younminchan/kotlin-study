@@ -97,8 +97,8 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             .setContentText(remoteMessage.data["title"].toString()) // 메시지 내용
             .setAutoCancel(true) // 알람클릭시 삭제여부
             .setSound(soundUri)  // 알림 소리
-            .setContentIntent(pendingIntent) // 알림 실행 시 Intent
-//            .setContentIntent(resultPendingIntent)
+//            .setContentIntent(pendingIntent) //TODO: MainActivity로 이동
+            .setContentIntent(resultPendingIntent) //TODO: MainActivity -> ResultActivity로 이동
 
         val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 

@@ -1,6 +1,8 @@
 package com.example.fcm_kotlin
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.fcm_kotlin.databinding.ActivityResultBinding
 
@@ -26,5 +28,10 @@ class ResultActivity : AppCompatActivity() {
 
             binding.tvResult.text = dataStr
         }
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        Log.e("YMC", "MainActivity onNewIntent")
+        super.onNewIntent(intent)
     }
 }
