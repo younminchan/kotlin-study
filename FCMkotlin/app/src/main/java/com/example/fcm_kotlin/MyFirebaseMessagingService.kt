@@ -61,7 +61,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         // RequestCode, Id를 고유값으로 지정하여 알림이 개별 표시
         val uniId: Int = (System.currentTimeMillis() / 7).toInt()
 
-        //TODO: (방법1)이동할 Activity 지정하여 intent 방법
+        //TODO: (방법1)이동할 Activity 지정하여 intent
         val resultIntent = Intent(this, ResultActivity::class.java)
         for(key in remoteMessage.data.keys){
             resultIntent.putExtra(key, remoteMessage.data.getValue(key))
@@ -83,7 +83,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) // Activity Stack 을 경로만 남김(A-B-C-D-B => A-B)
         val pendingIntent = PendingIntent.getActivity(this, uniId, intent, PendingIntent.FLAG_ONE_SHOT)
 
-        
+
         // 알림 채널 이름
         val channelId = "my_channel"
         // 알림 소리
@@ -96,8 +96,9 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             .setContentText(remoteMessage.data["title"].toString()) // 메시지 내용
             .setAutoCancel(true) // 알람클릭시 삭제여부
             .setSound(soundUri)  // 알림 소리
-//            .setContentIntent(pendingIntent) //TODO: MainActivity로 이동
-            .setContentIntent(resultPendingIntent) //TODO: MainActivity -> ResultActivity로 이동
+            .setContentIntent(resultPendingIntent) //TODO: (방법1)MainActivity -> ResultActivity로 이동
+//            .setContentIntent(pendingIntent) //TODO: (방법2)MainActivity로 이동
+
 
         val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
