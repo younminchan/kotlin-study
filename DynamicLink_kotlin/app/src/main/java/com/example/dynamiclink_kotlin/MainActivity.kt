@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
      * 단축URL을 앱 또는 브라우저에서 실행 시 -> Firebase쪽에서 수신을 통해 딥링크로 변경을 해줌
      * firebase쪽에서 Flow가 어떻게 돌아가는지 확인 할 수 있으며
      * 또 해당 딥링크로 변환했을시 앱에서 scheme를 "https", host를 "shopping.naver.com/home"으로 해당되는 딥링크를 수신처리
-     * 만약 해당되는 앱이 없을 시 딥링크 URL를 그대로 띄우거나 구글, 앱스토어마켓으로 이동시킴! */
+     * 만약 해당되는 앱이 없을 시 딥링크 URL를 그대로 띄우거나 구글, 앱 스토어마켓으로 이동시킴! */
     fun initDynamicLinks() {
         /** 딥링크 수신*/
         FirebaseDynamicLinks.getInstance()
@@ -73,8 +73,8 @@ class MainActivity : AppCompatActivity() {
                     .build()
             )
             .buildDynamicLink()
-//            .uri.toString()
-            .uri.toString() + "/event/1"  //  https://DEEPLINK_URL/event/1 의 형태로 만들기 위해 추가
+            .uri.toString()
+//            .uri.toString() + "/event/1"  //  https://DEEPLINK_URL/event/1 의 형태로 만들기 위해 추가
     }
 //
 
