@@ -17,7 +17,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //딩링크 수신
         initDynamicLinks()
+
+        //동적링크만들기
 //        var deepLinkStr = createDynamicLink()
 //        Log.e("YMC", "DeepLinkStr: ${deepLinkStr}")
     }
