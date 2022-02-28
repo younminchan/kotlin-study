@@ -87,3 +87,12 @@ DeepLink(딥링크) - 호출&수신
 
 - 정리(수신): https://minchanyoun.tistory.com/97
 - 코드(수신): https://github.com/younminchan/kotlin-study/tree/main/DeepLinkreceive_kotlin
+
+FCM(Firebase Cloud Message)
+- 정리(1편): https://minchanyoun.tistory.com/99
+- 정리(2편): https://minchanyoun.tistory.com/101
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/FCMkotlin
+
+DynamicLink
+- 정리:
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/DynamicLink_kotlin
