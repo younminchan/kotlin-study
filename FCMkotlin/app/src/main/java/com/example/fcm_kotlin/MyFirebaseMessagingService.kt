@@ -66,7 +66,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         for(key in remoteMessage.data.keys){
             resultIntent.putExtra(key, remoteMessage.data.getValue(key))
         }
-        resultIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) // Activity Stack 을 경로만 남김(A-B-C-D-B => A-B)
+        resultIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) // Activity Stack을 경로만 남김(A-B-C-D-B => A-B)
         val stackBuilder: TaskStackBuilder = TaskStackBuilder.create(this)
         stackBuilder.addParentStack(ResultActivity::class.java)
         stackBuilder.addNextIntent(resultIntent)
