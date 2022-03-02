@@ -58,6 +58,17 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
     /** 알림 생성 메서드 */
     private fun sendNotification(remoteMessage: RemoteMessage) {
+        val channelId = "my_channel" // 알림 채널 이름
+        val soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION) // 알림 소리
+        val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+
+        // 오레오 버전 이후에는 채널이 필요
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(channelId, "Notice", NotificationManager.IMPORTANCE_DEFAULT)
+            notificationManager.createNotificationChannel(channel)
+        }
+
+
         // RequestCode, Id를 고유값으로 지정하여 알림이 개별 표시
         val uniId: Int = (System.currentTimeMillis() / 7).toInt()
 
@@ -84,29 +95,15 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         val pendingIntent = PendingIntent.getActivity(this, uniId, intent, PendingIntent.FLAG_ONE_SHOT)
 
 
-        // 알림 채널 이름
-        val channelId = "my_channel"
-        // 알림 소리
-        val soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
-
         // 알림에 대한 UI 정보, 작업
         val notificationBuilder = NotificationCompat.Builder(this, channelId)
-            .setSmallIcon(R.mipmap.ic_launcher) // 아이콘 설정
+            .setSmallIcon(R.mipmap.ic_launcher)                     // 아이콘 설정
             .setContentTitle(remoteMessage.data["body"].toString()) // 제목
             .setContentText(remoteMessage.data["title"].toString()) // 메시지 내용
-            .setAutoCancel(true) // 알람클릭시 삭제여부
-            .setSound(soundUri)  // 알림 소리
+            .setAutoCancel(true)                                    // 알람클릭시 삭제여부
+            .setSound(soundUri)                                     // 알림 소리
             .setContentIntent(resultPendingIntent) //TODO: (방법1)MainActivity -> ResultActivity로 이동
 //            .setContentIntent(pendingIntent) //TODO: (방법2)MainActivity로 이동
-
-
-        val notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-
-        // 오레오 버전 이후에는 채널이 필요
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val channel = NotificationChannel(channelId, "Notice", NotificationManager.IMPORTANCE_DEFAULT)
-            notificationManager.createNotificationChannel(channel)
-        }
 
         // 알림 생성
         notificationManager.notify(uniId, notificationBuilder.build())
