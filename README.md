@@ -47,10 +47,6 @@ DataBinding, ViewBinding 차이
 - 정리:
 - 코드: 
  
-Navigation Drawer
-- 정리:
-- 코드: https://minchanyoun.tistory.com/57
- 
 Android 11이상 버전에 대한 대응
  - 정리:
  - 코드:
