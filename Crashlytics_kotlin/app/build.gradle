@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -29,6 +30,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    //ViewBinding
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -40,4 +46,13 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    // Crashlytics관련
+    // Firebase 플랫폼용 BoM가져오기
+    implementation platform('com.google.firebase:firebase-bom:29.1.0')
+
+    // Crashlytics 및 Analytics 라이브러리에 대한 종속성 선언
+    // BoM을 사용할 때 Firebase 라이브러리 종속성에 버전을 지정하지 않음
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 }
