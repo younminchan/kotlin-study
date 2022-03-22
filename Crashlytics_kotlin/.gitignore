@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+#Crashlytics
+app/google-services.json

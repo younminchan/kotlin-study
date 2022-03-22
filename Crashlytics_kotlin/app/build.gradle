@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.firebase.crashlytics'
+    id 'com.google.gms.google-services'
 }
 
 android {
@@ -54,5 +55,9 @@ dependencies {
     // Crashlytics 및 Analytics 라이브러리에 대한 종속성 선언
     // BoM을 사용할 때 Firebase 라이브러리 종속성에 버전을 지정하지 않음
     implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:29.2.1')
     implementation 'com.google.firebase:firebase-analytics-ktx'
 }

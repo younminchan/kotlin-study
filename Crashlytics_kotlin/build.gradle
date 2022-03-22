@@ -5,8 +5,6 @@ buildscript {
     }
 
     dependencies {
-        // ...
-
         // Check that you have the Google services Gradle plugin v4.3.2 or later
         // (if not, add it).
         classpath 'com.google.gms:google-services:4.3.10'
