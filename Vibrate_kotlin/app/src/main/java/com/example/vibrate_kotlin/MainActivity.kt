@@ -27,9 +27,7 @@ class MainActivity : AppCompatActivity() {
         binding.tvVibrateOneshot.setOnClickListener {
             // 1초 진동 울리기
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                vibrator.vibrate(
-                    VibrationEffect.createOneShot(1000, VibrationEffect.DEFAULT_AMPLITUDE)
-                )
+                vibrator.vibrate(VibrationEffect.createOneShot(1000, VibrationEffect.DEFAULT_AMPLITUDE))
             } else {
                 vibrator.vibrate(1000);
             }
