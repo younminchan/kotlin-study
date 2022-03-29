@@ -99,3 +99,9 @@ Firebase Crashlytics
 - 정리: https://github.com/younminchan/kotlin-study/tree/main/Crashlytics_kotlin
 - 코드: https://minchanyoun.tistory.com/108
 
+화면 회전 처리(가로, 세로, 자동)
+- 정리:  https://minchanyoun.tistory.com/109
+
+Vibrate(진동)
+- 정리: https://minchanyoun.tistory.com/110
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/Vibrate_kotlin
