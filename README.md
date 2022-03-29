@@ -1,7 +1,5 @@
 # Daily-study
-[Android 개발 관련 공부]
-
-
+### [Android 개발 관련 공부]
 
 Retrofit2:
 - 정리: https://minchanyoun.tistory.com/44?category=1013568
@@ -30,10 +28,6 @@ RecyclerView / DataBinding
 Room / RecyclerView / DataBinding
 - 정리:
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Room_RecyclerView_kotlin
-
-MVVM 패턴
-- 정리: 
-- 코드:  
 
 Android Jetpack Navigation
 - 정리: https://minchanyoun.tistory.com/57
@@ -99,7 +93,7 @@ SHA-1 확인하는 방법
 
 Room
 - 정리: 
-- 코드:
+- 코드: https://github.com/younminchan/kotlin-jetpack-example/tree/main/Room-kotlin  
 
 Firebase Crashlytics
 - 정리: https://github.com/younminchan/kotlin-study/tree/main/Crashlytics_kotlin
