@@ -6,8 +6,9 @@ import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
 import android.util.Log
+import com.example.gyroscope_kotlin.databinding.ActivityMainBinding
 
-class GyroscopeListener {
+class GyroscopeListener(binding: ActivityMainBinding) {
     lateinit var mSensorManager: SensorManager
     lateinit var mGyroSensor: Sensor
     lateinit var mGyroListen: SensorEventListener
@@ -41,7 +42,7 @@ class GyroscopeListener {
              */
             if (sensorEvent != null) {
                 var sensorResult = "(X축) ${sensorEvent.values[0]} / (Y축) ${sensorEvent.values[1]} / (Z축) ${sensorEvent.values[2]}"
-                Log.e("YMC", sensorResult)
+                binding.tvGyroscopeResult.text = sensorResult
             }
         }
 

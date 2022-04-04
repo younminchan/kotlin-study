@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var mGyroscope = GyroscopeListener()
+        var mGyroscope = GyroscopeListener(binding)
         binding.tvGyroscopeStart.setOnClickListener {
             mGyroscope.startListener()
         }
