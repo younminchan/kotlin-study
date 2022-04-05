@@ -5,27 +5,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0F0F0"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.github.gcacace.signaturepad.views.SignaturePad
+    <com.kyanogen.signatureview.SignatureView
+        xmlns:sign="http://schemas.android.com/apk/res-auto"
         android:id="@+id/signature_pad"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#F0F0F0"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:penColor="@android:color/black" />
+        app:penColor="@android:color/black"
+        sign:enableSignature="true" />
+
+    <!-- TODO: 예시 코드 -->
+    <!--    <com.kyanogen.signatureview.SignatureView-->
+    <!--        xmlns:sign="http://schemas.android.com/apk/res-auto"-->
+    <!--        android:id="@+id/signature_view"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        sign:penSize="5dp"-->
+    <!--        sign:backgroundColor="#ffffff"-->
+    <!--        sign:penColor="#000000"-->
+    <!--        sign:enableSignature="true"/>-->
+
+    <Button
+        android:id="@+id/b_clear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#333333"
+        android:enabled="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Clear"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/b_save"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signature_pad" />
+
+    <Button
+        android:id="@+id/b_save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#333333"
+        android:enabled="true"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b_clear"
+        app:layout_constraintTop_toBottomOf="@+id/signature_pad" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
