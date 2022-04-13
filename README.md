@@ -105,3 +105,6 @@ Firebase Crashlytics
 Vibrate(진동)
 - 정리: https://minchanyoun.tistory.com/110
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/Vibrate_kotlin
+
+싸인패드, 시그네처패드 (SignaturePad)
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/Signaturepad_kotlin
