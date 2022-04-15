@@ -18,6 +18,7 @@ import com.example.signaturepad_kotlin.databinding.ActivityMainBinding
 import java.io.File
 import java.io.FileOutputStream
 
+/** MainActivity.kt*/
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
 
@@ -99,7 +100,6 @@ class MainActivity : AppCompatActivity() {
         Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE).also { mediaScanIntent ->
             mediaScanIntent.data = Uri.fromFile(file)
             sendBroadcast(mediaScanIntent)
-            Log.e("YMC", "currentPhotoPath2 : $file")
         }
     }
 

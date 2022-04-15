@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml-->
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F0F0F0"
+    android:background="#000000"
     tools:context=".MainActivity">
 
     <com.kyanogen.signatureview.SignatureView
@@ -21,17 +22,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:penColor="@android:color/black"
         sign:enableSignature="true" />
-
-    <!-- TODO: 예시 코드 -->
-    <!--    <com.kyanogen.signatureview.SignatureView-->
-    <!--        xmlns:sign="http://schemas.android.com/apk/res-auto"-->
-    <!--        android:id="@+id/signature_view"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        sign:penSize="5dp"-->
-    <!--        sign:backgroundColor="#ffffff"-->
-    <!--        sign:penColor="#000000"-->
-    <!--        sign:enableSignature="true"/>-->
 
     <Button
         android:id="@+id/b_clear"
