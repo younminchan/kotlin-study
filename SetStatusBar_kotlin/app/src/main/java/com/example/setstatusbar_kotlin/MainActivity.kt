@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.core.view.WindowInsetsControllerCompat
 import com.example.setstatusbar_kotlin.databinding.ActivityMainBinding
-import com.google.android.material.internal.ContextUtils.getActivity
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

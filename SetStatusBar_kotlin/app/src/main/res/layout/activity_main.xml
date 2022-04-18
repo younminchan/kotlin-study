@@ -11,7 +11,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:background="#F0F0F0"
         android:padding="10dp"
         android:text="상태바 색상 변경"
         android:textSize="30dp"
