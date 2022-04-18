@@ -108,3 +108,7 @@ Vibrate(진동)
 
 싸인패드, 시그네처패드 (SignaturePad)
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/Signaturepad_kotlin
+
+StatusBar(상태바, 상태바 아이콘 색상 변경)
+- 정리: https://minchanyoun.tistory.com/115
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/SetStatusBar_kotlin
