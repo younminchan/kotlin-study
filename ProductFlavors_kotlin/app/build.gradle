@@ -21,6 +21,12 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug{
+            debuggable true //디버깅 사용 여부
+            minifyEnabled false //progurad 설정 여부(난독화)
+            shrinkResources false //리소스 축소 사용 여부
+        }
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -28,6 +34,42 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures{
+        viewBinding true
+    }
+
+    /** ProductFlavors */
+    flavorDimensions 'test_flavor'
+    productFlavors {
+        app1 {
+            dimension 'test_flavor'
+            versionCode 1
+            versionName "1.1"
+            applicationId "com.example.app1"
+            manifestPlaceholders = [appName: "@string/app_name"]
+
+            /** (manifest) 변수 삽입 */
+            manifestPlaceholders = [appName: "@string/app_name"]
+            /** (Layout) 변수 삽입 */
+            resValue("string", "TestValue", "com.example.test.app1")
+            /** (buildConfig) 자바 변수 삽입 */
+            buildConfigField "String", "TestValue", "\"com.example.test.app1\""
+        }
+        app2 {
+            dimension 'test_flavor'
+            versionCode 2
+            versionName "2.1"
+            applicationId "com.example.app2"
+            manifestPlaceholders = [appName: "@string/app_name"]
+
+            /** (manifest) 변수 삽입 */
+            manifestPlaceholders = [appName: "@string/app_name"]
+            /** (Layout) 변수 삽입 */
+            resValue("string", "TestValue", "com.example.test.app2")
+            /** (buildConfig) 자바 변수 삽입 */
+            buildConfigField "String", "TestValue", "\"com.example.test.app2\""
+        }
     }
 }
 
