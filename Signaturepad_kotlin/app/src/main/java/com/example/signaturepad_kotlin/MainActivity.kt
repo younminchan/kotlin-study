@@ -1,22 +1,31 @@
 package com.example.signaturepad_kotlin
 
 import android.Manifest
-import android.content.Context
 import android.content.Intent
 import android.content.pm.ActivityInfo
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
+import android.graphics.Color
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
+import android.util.DisplayMetrics
 import android.util.Log
+import android.view.Gravity
+import android.widget.Button
+import android.widget.LinearLayout
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.marginRight
 import com.example.signaturepad_kotlin.databinding.ActivityMainBinding
+import com.kyanogen.signatureview.SignatureView
 import java.io.File
 import java.io.FileOutputStream
+
 
 /** MainActivity.kt*/
 class MainActivity : AppCompatActivity() {
@@ -30,39 +39,107 @@ class MainActivity : AppCompatActivity() {
         //화면모드 설정 (세로-SCREEN_ORIENTATION_PORTRAIT, 가로-SCREEN_ORIENTATION_LANDSCAPE)
         requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
 
+        /** SignPad layout 생성*/
         initSignaturePad()
     }
 
+    /** 화면 크기 정보 가져오기 */
+    fun getScreenSize(): Map<String, Int> {
+        val displayMetrics = DisplayMetrics()
+        windowManager.defaultDisplay.getMetrics(displayMetrics)
+        val width = displayMetrics.widthPixels
+        val height = displayMetrics.heightPixels
+
+        return mapOf("width" to width, "height" to height)
+    }
+
+    /** 코드로 레이아웃 생성 */
     private fun initSignaturePad(){
-        /** 초기화 */
-        binding.bClear.setOnClickListener {
-            binding.signaturePad.clearCanvas()
+        //전체 Layout
+        var m_llayout = LinearLayout(this)
+        m_llayout.apply {
+            orientation = LinearLayout.VERTICAL
+            id = ViewCompat.generateViewId()
+            gravity = Gravity.CENTER
+            var params = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+            params.weight = 1F
+            layoutParams = params
         }
 
-        /** 저장 */
-        binding.bSave.setOnClickListener {
-            if(!binding.signaturePad.isBitmapEmpty){
-                /** 권한 체크 */
-                if(!checkPermission(Manifest.permission.READ_EXTERNAL_STORAGE) || !checkPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
-                    return@setOnClickListener
-                }
+        //싸인패드
+        var w_ratio = 0.9
+        var h_ratio = 0.7
+        var m_signPad = SignatureView(this, null)
+        m_signPad.apply {
+            penColor = Color.parseColor("#000000")
+            layoutParams = LinearLayout.LayoutParams(
+                (getScreenSize().getValue("width") * w_ratio).toInt(),
+                (getScreenSize().getValue("height") * h_ratio).toInt()
+            )
+            id = ViewCompat.generateViewId()
+        }
 
-                /** 그림 저장 */
-                if(!imageExternalSave(binding.signaturePad.signatureBitmap, this.getString(R.string.app_name))){
-                    Toast.makeText(this, "사인패드 저장에 실패하였습니다", Toast.LENGTH_SHORT).show()
-                }else{
-                    Toast.makeText(this, "사인패드를 갤러리에 저장하였습니다.", Toast.LENGTH_SHORT).show()
-                }
-            }else {
-                Toast.makeText(this, "사인패드가 비어있습니다.", Toast.LENGTH_SHORT).show()
+        //하단 버튼
+        var m_Bottom = LinearLayout(this)
+        m_Bottom.apply {
+            orientation = LinearLayout.HORIZONTAL
+            id = ViewCompat.generateViewId()
+            layoutParams = LinearLayout.LayoutParams(
+                (getScreenSize().getValue("width") * w_ratio).toInt(),
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+        }
+
+        var b_clear = Button(this).apply {
+            id = ViewCompat.generateViewId()
+            var params = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT)
+            params.weight = 1F
+            layoutParams = params
+            gravity = Gravity.CENTER
+            setBackgroundColor(Color.parseColor("#F0F0F0"))
+            text = "Clear"
+            setOnClickListener {
+                m_signPad.clearCanvas()
             }
         }
 
-        /**
-         * 관련자료
-            1. [Android Studio] Bitmap을 File로 변환하기: https://crazykim2.tistory.com/445 [차근차근 개발일기+일상]
-            2. [Android Studio] 비트맵 사진을 갤러리에 저장하기 코틀린 Bitmap To Gallery Kotlin: https://devsmin.tistory.com/m/27
-         */
+        var b_save = Button(this).apply {
+            var params = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT)
+            id = ViewCompat.generateViewId()
+            params.weight = 1F
+            layoutParams = params
+            gravity = Gravity.CENTER
+            setBackgroundColor(Color.parseColor("#F0F0F0"))
+            text = "Save"
+            setOnClickListener {
+                Log.e("YMC", "b_save click")
+
+                if(!m_signPad.isBitmapEmpty){
+                    /** 권한 체크 */
+                    if(!checkPermission(Manifest.permission.READ_EXTERNAL_STORAGE) || !checkPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
+                        return@setOnClickListener
+                    }
+
+                    /** 그림 저장 */
+                    if(!imageExternalSave(m_signPad.signatureBitmap, getString(R.string.app_name))){
+                        Toast.makeText(this@MainActivity, "사인패드 저장에 실패하였습니다", Toast.LENGTH_SHORT).show()
+                    }else{
+                        Toast.makeText(this@MainActivity, "사인패드를 갤러리에 저장하였습니다.", Toast.LENGTH_SHORT).show()
+                        binding.clMain.removeAllViews()
+                    }
+                }else {
+                    Toast.makeText(this@MainActivity, "사인패드가 비어있습니다.", Toast.LENGTH_SHORT).show()
+                }
+            }
+        }
+        m_Bottom.addView(b_clear)
+        m_Bottom.addView(b_save)
+        m_llayout.addView(m_signPad)
+        m_llayout.addView(m_Bottom)
+        binding.clMain.addView(m_llayout)
     }
 
     /** 이미지 저장 */
