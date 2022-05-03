@@ -14,6 +14,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="#F0F0F0"
+        android:transitionName="image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,6 +28,7 @@
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:transitionName="name"
         app:layout_constraintLeft_toRightOf="@id/img_rv_photo"
         app:layout_constraintTop_toTopOf="parent" />
 

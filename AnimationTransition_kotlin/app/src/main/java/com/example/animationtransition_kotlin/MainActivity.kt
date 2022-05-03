@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initRecyclerView() {
-        rvAdapter = RvAdapter(this)
+        rvAdapter = RvAdapter(this, this)
         binding.rvUser.adapter = rvAdapter
 
         datas.apply {

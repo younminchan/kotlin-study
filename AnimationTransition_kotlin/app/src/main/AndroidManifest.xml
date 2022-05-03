@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AnimationTransition_kotlin"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".UserDetailActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -22,7 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
