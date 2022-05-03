@@ -162,7 +162,7 @@ class MainActivity : AppCompatActivity() {
                 out.flush()
                 out.close()
 
-                //갤러리 갱신
+                //갤러리 갱신4
                 galleyAddPic(file)
                 return true
             } catch (e: Exception) {
