@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.animationtransition_kotlin.databinding.RvItemBinding
 import android.util.*
+import java.io.Serializable
 
 class RvAdapter(private val context: Context, private val act: MainActivity) : RecyclerView.Adapter<RvAdapter.ViewHolder>() {
     var datas = mutableListOf<RvData>()
@@ -31,8 +32,7 @@ class RvAdapter(private val context: Context, private val act: MainActivity) : R
         holder.binding.root.setOnClickListener {
             Log.e("YMC", "클릭")
             Intent(context, UserDetailActivity::class.java).apply {
-                putExtra("img", datas[position].img)
-                putExtra("name", datas[position].name)
+                putExtra("data", datas[position])
                 addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             }.run {
                 if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){

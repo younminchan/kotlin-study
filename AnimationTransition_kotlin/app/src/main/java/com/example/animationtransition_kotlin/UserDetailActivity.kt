@@ -13,10 +13,9 @@ class UserDetailActivity : AppCompatActivity() {
         binding = ActivityUserDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var img = intent.getStringExtra("img")
-        var name = intent.getStringExtra("name")
+        var data = intent.getSerializableExtra("data") as RvData
 
-        Glide.with(this).load(img).into(binding.imgProfile)
-        binding.tvName.text = name
+        Glide.with(this).load(data.img).into(binding.imgProfile)
+        binding.tvName.text = data.name
     }
 }
