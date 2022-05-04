@@ -2,4 +2,4 @@
 
 
 ### Example
-<img width="80%" src="https://user-images.githubusercontent.com/14201479/166608039-2d9975a5-0890-439d-86f2-998dc5e69a1d.gif"/>
+<img width="50%" src="https://user-images.githubusercontent.com/14201479/166608806-818f533a-abb3-4f41-a6a0-56c29387d67e.gif"/>
