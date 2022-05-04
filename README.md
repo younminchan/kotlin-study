@@ -116,3 +116,7 @@ StatusBar(상태바, 상태바 아이콘 색상 변경)
 ProductFlavors (하나의 프로젝트로 여러개 앱 빌드)
 - 정리: https://minchanyoun.tistory.com/116
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/ProductFlavors_kotlin
+
+AnimationTransition_kotlin
+- 정리:  
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/AnimationTransition_kotlin  
