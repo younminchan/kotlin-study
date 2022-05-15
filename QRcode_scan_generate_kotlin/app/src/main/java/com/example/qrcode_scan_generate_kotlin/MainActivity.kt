@@ -54,14 +54,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    /** QRCode 생성 */
+    /** TODO: QRCode 생성 */
     fun generaterQRCode(contents: String) : Bitmap {
         val barcodeEncoder = BarcodeEncoder()
         val bitmap = barcodeEncoder.encodeBitmap(contents, BarcodeFormat.QR_CODE, 512, 512)
         return bitmap
     }
 
-    /** QRCode 스캔 */
+    /** TODO: QRCode 스캔 */
     private fun scanQrCode() {
         val intentIntegrator = IntentIntegrator(this)
 
