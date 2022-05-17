@@ -1,20 +1,29 @@
 package com.example.nfc_kotlin
 
+import android.annotation.SuppressLint
+import android.app.Activity
 import android.app.PendingIntent
+import android.content.BroadcastReceiver
+import android.content.Context
 import android.content.Intent
+import android.content.IntentFilter
 import android.net.Uri
 import android.nfc.NdefMessage
 import android.nfc.NdefRecord
 import android.nfc.NfcAdapter
 import android.nfc.Tag
 import android.nfc.tech.Ndef
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.renderscript.Element
 import android.util.Log
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.lifecycle.Lifecycle
 import com.example.nfc_kotlin.databinding.ActivityMainBinding
 import java.util.*
+import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -35,32 +44,43 @@ class MainActivity : AppCompatActivity() {
             Intent(this, javaClass).addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), 0)
 
         initClick()
+        setLifeCycle()
+
     }
 
-    override fun onResume() {
-        super.onResume()
-        Log.e("YMC", "onResume nfcEnable: ${nfcEnable}")
-        if(!nfcEnable){
-            changeStateNFC(true)
+    private fun setLifeCycle(){
+        var broadcastReceiver = object : BroadcastReceiver() {
+            override fun onReceive(context: Context?, intent: Intent?) {
+                Log.e("YMC", "myLifecycleCallbacks BroadcastReceiver")
+            }
+        }
+        var myLifecycleCallbacks = object : MyLifecycleCallbacks(){
+            override fun onActivityResumed(activity: Activity) {
+                super.onActivityResumed(activity)
+                Log.e("YMC", "myLifecycleCallbacks onActivityResumed")
+                if(!nfcEnable){
+                    changeStateNFC(true)
+                }
+            }
+
+            override fun onActivityPaused(activity: Activity) {
+                super.onActivityPaused(activity)
+                Log.e("YMC", "myLifecycleCallbacks onActivityPaused")
+                changeStateNFC(false)
+            }
+        }
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+            registerActivityLifecycleCallbacks(myLifecycleCallbacks)
         }
     }
 
-    override fun onPause() {
-        super.onPause()
-        changeStateNFC(false)
-    }
-
     private fun initClick(){
-        Log.e("YMC", "initClick nfcEnable: ${nfcEnable}")
-
         //Write
         binding.bWrite.setOnClickListener {
             tagMode = "write"
             Toast.makeText(this, "NFC write실행!", Toast.LENGTH_SHORT).show()
             binding.tvRead.text = "NFC write 대기중"
-            if(!nfcEnable){
-                changeStateNFC(true)
-            }
         }
 
         //Read
@@ -68,9 +88,6 @@ class MainActivity : AppCompatActivity() {
             tagMode = "read"
             Toast.makeText(this, "NFC read실행!", Toast.LENGTH_SHORT).show()
             binding.tvRead.text = "NFC read 대기중"
-            if(!nfcEnable){
-                changeStateNFC(true)
-            }
         }
     }
 
@@ -95,12 +112,11 @@ class MainActivity : AppCompatActivity() {
         Log.e("YMC", "onNewIntent: ${intent.action} tagMode: ${tagMode}")
 
         if (intent.action == NfcAdapter.ACTION_NDEF_DISCOVERED){
-
             //TODO: Read? Write?
             when(tagMode){
                 "write" -> {
                     val detectedTag: Tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG)!!
-                    val writeValue: String = "http://www.naver.com/test"
+                    val writeValue: String = "http://www.naver.com/1"
                     val message: NdefMessage = createTagMessage(writeValue)
                     writeTag(message, detectedTag)
                 }
@@ -115,19 +131,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-//    override fun onNewIntent(intent: Intent) {
-//        super.onNewIntent(intent)
-//
-//        Log.e("YMC", "onNewIntent / intent.action: ${intent.action}")
-//        if(intent != null){
-//            val detectedTag : Tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG)!!
-//            val writeValue : String = "http://www.naver.com"
-//            val message: NdefMessage = createTagMessage(writeValue)
-//
-//            writeTag(message, detectedTag)
-//        }
-//    }
-
 
     /** NFC Read */
     private fun readTag(mMessage: NdefMessage) {
