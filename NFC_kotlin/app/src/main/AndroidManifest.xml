@@ -4,7 +4,7 @@
 
     <!-- NFC -->
     <uses-permission android:name="android.permission.NFC" />
-
+    <!-- NFC 하드웨어가 있는 기기에서만 애플리케이션이 Google Play에 표시되도록 하는 uses-feature 요소 -->
     <uses-feature android:name="android.hardware.nfc" android:required="true" />
 
     <application
