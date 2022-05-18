@@ -106,25 +106,27 @@ class MainActivity : AppCompatActivity() {
     }
 
     //같은화면에서 같은화면이 호출되었을 때
-    /** TODO: NFC intent */
-    override fun onNewIntent(intent: Intent) {
+    override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)
-        Log.e("YMC", "onNewIntent: ${intent.action} tagMode: ${tagMode}")
 
-        if (intent.action == NfcAdapter.ACTION_NDEF_DISCOVERED){
-            //TODO: Read? Write?
-            when(tagMode){
-                "write" -> {
-                    val detectedTag: Tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG)!!
-                    val writeValue: String = "http://www.naver.com/1"
-                    val message: NdefMessage = createTagMessage(writeValue)
-                    writeTag(message, detectedTag)
-                }
-                "read" -> {
-                    val messages = intent.getParcelableArrayExtra(NfcAdapter.EXTRA_NDEF_MESSAGES)
-                    messages?.let {
-                        for (i in messages.indices){
-                            readTag(messages[i] as NdefMessage)
+        intent?.let {
+            Log.e("YMC", "onNewIntent: ${intent.action} tagMode: ${tagMode}")
+
+            if (intent.action == NfcAdapter.ACTION_NDEF_DISCOVERED){
+                //TODO: Read? Write?
+                when(tagMode){
+                    "write" -> {
+                        val detectedTag: Tag = intent.getParcelableExtra(NfcAdapter.EXTRA_TAG)!!
+                        val writeValue: String = "http://www.naver.com/1"
+                        val message: NdefMessage = createTagMessage(writeValue)
+                        writeTag(message, detectedTag)
+                    }
+                    "read" -> {
+                        val messages = intent.getParcelableArrayExtra(NfcAdapter.EXTRA_NDEF_MESSAGES)
+                        messages?.let {
+                            for (i in messages.indices){
+                                readTag(messages[i] as NdefMessage)
+                            }
                         }
                     }
                 }
