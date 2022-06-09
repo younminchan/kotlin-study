@@ -130,9 +130,11 @@ Glide (이미지 라이브러리)
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/GlideCache_kotlin
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/AnimationTransition_kotlin  
 
-DI관련
-- 정리:
+DI관련  
+- 정리:  
 
-오프라인 라이브러리 추가하는 방법
-- 정리: 
-- 
+오프라인 라이브러리 추가하는 방법  
+- 정리:  
+
+토글버튼(Toggle Button)  
+- 정리  
