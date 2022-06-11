@@ -1,5 +1,5 @@
 # Daily-study
-### [Android 개발 관련 공부]
+## [Android 개발 관련 공부]
 
 Retrofit2:
 - 정리: https://minchanyoun.tistory.com/44?category=1013568
