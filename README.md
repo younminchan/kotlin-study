@@ -51,7 +51,7 @@ koltin-kakao-login
 - 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-kakao-login
 
 kotlin-naver-login
-- 정리:
+- 정리: https://minchanyoun.tistory.com/118  
 - 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-naver-login
 
 kotlin-facebook-login
