@@ -67,7 +67,7 @@ QRCode-Scan
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/QRCode_kotlin
 
 QRCode-Scan-Generate
-- 정리:
+- 정리: https://minchanyoun.tistory.com/122  
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/QRcode_scan_generate_kotlin
 
 SQLite
