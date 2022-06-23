@@ -34,8 +34,7 @@ Android Jetpack Navigation
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Jetpack_Navigation_kotlin
  
 코루틴은 왜 나온것인가?
-- 정리: 
-- 코드:
+- 정리: https://minchanyoun.tistory.com/64  
 
 DataBinding, ViewBinding 차이
 - 정리:
