@@ -55,7 +55,7 @@ kotlin-naver-login
 - 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-naver-login
 
 kotlin-facebook-login
-- 정리:
+- 정리: https://minchanyoun.tistory.com/119  
 - 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-facebook-login
 
 kotlin-google-login
