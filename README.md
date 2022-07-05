@@ -137,3 +137,6 @@ DI관련
 
 토글버튼(Toggle Button)  
 - 정리: https://minchanyoun.tistory.com/70   
+
+기업마다 사용하는 개발스킬 확인
+- 정리:  
