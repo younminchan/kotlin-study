@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3582427536231884" />
         <entry key="app/src/main/res/layout/fragment_tab1.xml" value="0.3582427536231884" />
+        <entry key="app/src/main/res/layout/fragment_tab2.xml" value="0.3582427536231884" />
+        <entry key="app/src/main/res/layout/fragment_tab3.xml" value="0.3582427536231884" />
       </map>
     </option>
   </component>

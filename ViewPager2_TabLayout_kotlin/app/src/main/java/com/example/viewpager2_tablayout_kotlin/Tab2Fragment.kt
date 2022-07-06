@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.viewpager2_tablayout_kotlin.databinding.FragmentTab2Binding
 
+// Tab2Fragment.kt
 class Tab2Fragment : Fragment() {
     private var _binding: FragmentTab2Binding? = null
     private val binding get() = _binding!!
@@ -19,6 +20,4 @@ class Tab2Fragment : Fragment() {
         _binding = FragmentTab2Binding.inflate(inflater, container, false)
         return binding.root
     }
-
-
 }

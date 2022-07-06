@@ -7,6 +7,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.viewpager2_tablayout_kotlin.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
+//MainActivity.kt
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
 
@@ -46,5 +47,4 @@ class MainActivity : AppCompatActivity() {
             }
         }.attach()
     }
-
 }

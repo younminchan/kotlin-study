@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tab1Fragment"
-    android:background="#80FF0000">
+    android:background="#80FF0000"
+    tools:context=".Tab1Fragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Hello Fragment1!!"
-        android:textSize="20dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
