@@ -1,5 +1,5 @@
 # Daily-study
-### [Android 개발 관련 공부]
+## [Android 개발 관련 공부]
 
 Retrofit2:
 - 정리: https://minchanyoun.tistory.com/44?category=1013568
@@ -34,8 +34,7 @@ Android Jetpack Navigation
 - 코드: https://github.com/younminchan/Daily-study/tree/main/Jetpack_Navigation_kotlin
  
 코루틴은 왜 나온것인가?
-- 정리: 
-- 코드:
+- 정리: https://minchanyoun.tistory.com/64  
 
 DataBinding, ViewBinding 차이
 - 정리:
@@ -52,11 +51,11 @@ koltin-kakao-login
 - 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-kakao-login
 
 kotlin-naver-login
-- 정리:
+- 정리: https://minchanyoun.tistory.com/118  
 - 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-naver-login
 
 kotlin-facebook-login
-- 정리:
+- 정리: https://minchanyoun.tistory.com/119  
 - 코드: https://github.com/younminchan/kotlin-sns-samples/tree/main/kotlin-facebook-login
 
 kotlin-google-login
@@ -68,7 +67,7 @@ QRCode-Scan
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/QRCode_kotlin
 
 QRCode-Scan-Generate
-- 정리:
+- 정리: https://minchanyoun.tistory.com/122  
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/QRcode_scan_generate_kotlin
 
 SQLite
@@ -129,3 +128,15 @@ Glide (이미지 라이브러리)
 - 정리: https://minchanyoun.tistory.com/121
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/GlideCache_kotlin
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/AnimationTransition_kotlin  
+
+DI관련  
+- 정리:  
+
+오프라인 라이브러리 추가하는 방법  
+- 정리:  
+
+토글버튼(Toggle Button)  
+- 정리: https://minchanyoun.tistory.com/70   
+
+기업마다 사용하는 개발스킬 확인
+- 정리:  
