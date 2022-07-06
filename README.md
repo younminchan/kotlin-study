@@ -142,5 +142,5 @@ DI관련
 - 정리:  
 
 ViewPager2 + TabLayout
-- 정리: -
+- 정리: https://minchanyoun.tistory.com/126  
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/ViewPager2_TabLayout_kotlin
