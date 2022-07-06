@@ -140,3 +140,7 @@ DI관련
 
 기업마다 사용하는 개발스킬 확인
 - 정리:  
+
+ViewPager2 + TabLayout
+- 정리: -
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/ViewPager2_TabLayout_kotlin
