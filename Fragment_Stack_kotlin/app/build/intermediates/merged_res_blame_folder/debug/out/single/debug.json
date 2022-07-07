@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
         "merged": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
