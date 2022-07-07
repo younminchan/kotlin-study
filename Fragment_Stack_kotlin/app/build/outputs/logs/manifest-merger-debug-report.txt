@@ -1,0 +1,270 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.databinding:databinding-adapters:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/392e6f78dea4e7b0d09152796ff8bd12/transformed/databinding-adapters-7.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-ktx:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/29d4bb0927105e53540e2f55807d08c5/transformed/databinding-ktx-7.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/cf4f922b72c61bd6eb9762890727c76e/transformed/databinding-runtime-7.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/ad121ffcde43f930fedfe7850f8aee09/transformed/viewbinding-7.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/4b0be23c13d909bd11cf686a50a6024e/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/younminchan/.gradle/caches/transforms-3/a4bbccdabd4441e1a6d945c231f0299f/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/younminchan/.gradle/caches/transforms-3/1a95f8eef196342ea39ddd928cac992b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/younminchan/.gradle/caches/transforms-3/f6f56147e6bb2a3f773c682b1657f830/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/5f8d87213673e43cba5a8f1069e12dad/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/7e8a46b5aae617cc5926c5ddfab99fae/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/782067a469c3f10e551b8635f391d97b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/bdb9219fa1b5555590faf22bb2014a8a/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/younminchan/.gradle/caches/transforms-3/fb6a1c4f76725a064280cc5027eee458/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/younminchan/.gradle/caches/transforms-3/4045682ef74d639663505a487a82e7a6/transformed/activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/younminchan/.gradle/caches/transforms-3/ef56274a1db5035696975a26da544949/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/47426484d647d36ee3b2f553027ef742/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/676f9ef08765777328d58a3ed8830be6/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/younminchan/.gradle/caches/transforms-3/02e60f2f4e95fe6cc7a7bfa1e87c4029/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/a1b1624c0b6cbb2263f8f85e03a94149/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/cd66759e454898082618eddbe5a5cb82/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/younminchan/.gradle/caches/transforms-3/7052e54329d45d6f921cd2134c6515b3/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/f0e3e5f94519157ec3407a2baa17b449/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/aa5ae8c422029788f9ad52a917c99757/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/713f934120de18ae37dfd645351af20e/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/0d1b0456b9a903da08ae39c0e2cc744f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/f5a9079530ed1257595e2ec6a2675a8c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/891a0b29df1371aa8461be98cddd5738/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/585879213e78e4b5b3b83111254596a6/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/8a5648ffae5174001073c93fe8bc0bd0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/6003f3ee1af003e161d7336ba9e5e4a4/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/9a40f2fe43537f4773a89776c7a914e5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/8e8fbed135fcf035bcc1608eda2a3d30/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/45d02a77dae881956d1271c2f6287d3a/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/68db15b77027c67f9daea37a2a7ab29d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/58c93c96c026fe7ce15965a84408344f/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/0f412d0124aac0d24ac009286a4db02c/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/1c2a38d1672372ae75f1349454d3c298/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/20c38c2442424af3dc92beeef63cc82d/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/1b181f7f6381133c2739b320eaff4055/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/d703d9e9d06cec81c12d1d0a9df36a43/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/6715fa07539eb018c28a5632050181c1/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/59bdedda09a049c61027ff15f3f11de0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/younminchan/.gradle/caches/transforms-3/e8d3f4ee4f2c09e306d6310525173375/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/younminchan/.gradle/caches/transforms-3/5b1fab84aeb1f1eabea9cfbb4efa4f2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/287a2689b092bd116715acf9ca28da66/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/e5d35377a0385f82002af2f0c4eb039e/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/165214ce86d42ecd047bcb91ededb081/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/5ee87570fd1da91210368a35711ce6fb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/f3662e83ef7829f7f735ada90526b582/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/e38bcf560b2de0aea500f690c09d3db7/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/bcfd78c21a69608f3ae3afc41573255c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.google.android.material:material:1.6.1] /Users/younminchan/.gradle/caches/transforms-3/a4bbccdabd4441e1a6d945c231f0299f/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/younminchan/.gradle/caches/transforms-3/a4bbccdabd4441e1a6d945c231f0299f/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/younminchan/.gradle/caches/transforms-3/1a95f8eef196342ea39ddd928cac992b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/younminchan/.gradle/caches/transforms-3/1a95f8eef196342ea39ddd928cac992b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/782067a469c3f10e551b8635f391d97b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/782067a469c3f10e551b8635f391d97b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/45d02a77dae881956d1271c2f6287d3a/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/45d02a77dae881956d1271c2f6287d3a/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/younminchan/.gradle/caches/transforms-3/5b1fab84aeb1f1eabea9cfbb4efa4f2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/younminchan/.gradle/caches/transforms-3/5b1fab84aeb1f1eabea9cfbb4efa4f2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/287a2689b092bd116715acf9ca28da66/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/287a2689b092bd116715acf9ca28da66/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/45d02a77dae881956d1271c2f6287d3a/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:11:9-59
+activity#com.example.fragment_stack_kotlin.MainActivity
+ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:exported
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/392e6f78dea4e7b0d09152796ff8bd12/transformed/databinding-adapters-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-adapters:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/392e6f78dea4e7b0d09152796ff8bd12/transformed/databinding-adapters-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/29d4bb0927105e53540e2f55807d08c5/transformed/databinding-ktx-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-ktx:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/29d4bb0927105e53540e2f55807d08c5/transformed/databinding-ktx-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/cf4f922b72c61bd6eb9762890727c76e/transformed/databinding-runtime-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:databinding-runtime:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/cf4f922b72c61bd6eb9762890727c76e/transformed/databinding-runtime-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/ad121ffcde43f930fedfe7850f8aee09/transformed/viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.1] /Users/younminchan/.gradle/caches/transforms-3/ad121ffcde43f930fedfe7850f8aee09/transformed/viewbinding-7.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/4b0be23c13d909bd11cf686a50a6024e/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/4b0be23c13d909bd11cf686a50a6024e/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/younminchan/.gradle/caches/transforms-3/a4bbccdabd4441e1a6d945c231f0299f/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/younminchan/.gradle/caches/transforms-3/a4bbccdabd4441e1a6d945c231f0299f/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/younminchan/.gradle/caches/transforms-3/1a95f8eef196342ea39ddd928cac992b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/younminchan/.gradle/caches/transforms-3/1a95f8eef196342ea39ddd928cac992b/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/younminchan/.gradle/caches/transforms-3/f6f56147e6bb2a3f773c682b1657f830/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/younminchan/.gradle/caches/transforms-3/f6f56147e6bb2a3f773c682b1657f830/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/5f8d87213673e43cba5a8f1069e12dad/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/5f8d87213673e43cba5a8f1069e12dad/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/7e8a46b5aae617cc5926c5ddfab99fae/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/7e8a46b5aae617cc5926c5ddfab99fae/transformed/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/782067a469c3f10e551b8635f391d97b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/782067a469c3f10e551b8635f391d97b/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/bdb9219fa1b5555590faf22bb2014a8a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/bdb9219fa1b5555590faf22bb2014a8a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/younminchan/.gradle/caches/transforms-3/fb6a1c4f76725a064280cc5027eee458/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/younminchan/.gradle/caches/transforms-3/fb6a1c4f76725a064280cc5027eee458/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/younminchan/.gradle/caches/transforms-3/4045682ef74d639663505a487a82e7a6/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/younminchan/.gradle/caches/transforms-3/4045682ef74d639663505a487a82e7a6/transformed/activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/younminchan/.gradle/caches/transforms-3/ef56274a1db5035696975a26da544949/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/younminchan/.gradle/caches/transforms-3/ef56274a1db5035696975a26da544949/transformed/appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/47426484d647d36ee3b2f553027ef742/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/47426484d647d36ee3b2f553027ef742/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/676f9ef08765777328d58a3ed8830be6/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/676f9ef08765777328d58a3ed8830be6/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/younminchan/.gradle/caches/transforms-3/02e60f2f4e95fe6cc7a7bfa1e87c4029/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/younminchan/.gradle/caches/transforms-3/02e60f2f4e95fe6cc7a7bfa1e87c4029/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/a1b1624c0b6cbb2263f8f85e03a94149/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/a1b1624c0b6cbb2263f8f85e03a94149/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/cd66759e454898082618eddbe5a5cb82/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/cd66759e454898082618eddbe5a5cb82/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/younminchan/.gradle/caches/transforms-3/7052e54329d45d6f921cd2134c6515b3/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/younminchan/.gradle/caches/transforms-3/7052e54329d45d6f921cd2134c6515b3/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/f0e3e5f94519157ec3407a2baa17b449/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/f0e3e5f94519157ec3407a2baa17b449/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/aa5ae8c422029788f9ad52a917c99757/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/aa5ae8c422029788f9ad52a917c99757/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/713f934120de18ae37dfd645351af20e/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/713f934120de18ae37dfd645351af20e/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/0d1b0456b9a903da08ae39c0e2cc744f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/0d1b0456b9a903da08ae39c0e2cc744f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/f5a9079530ed1257595e2ec6a2675a8c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/f5a9079530ed1257595e2ec6a2675a8c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/891a0b29df1371aa8461be98cddd5738/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/891a0b29df1371aa8461be98cddd5738/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/585879213e78e4b5b3b83111254596a6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/585879213e78e4b5b3b83111254596a6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/8a5648ffae5174001073c93fe8bc0bd0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/8a5648ffae5174001073c93fe8bc0bd0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/6003f3ee1af003e161d7336ba9e5e4a4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/6003f3ee1af003e161d7336ba9e5e4a4/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/9a40f2fe43537f4773a89776c7a914e5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/9a40f2fe43537f4773a89776c7a914e5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/8e8fbed135fcf035bcc1608eda2a3d30/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/8e8fbed135fcf035bcc1608eda2a3d30/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/45d02a77dae881956d1271c2f6287d3a/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/younminchan/.gradle/caches/transforms-3/45d02a77dae881956d1271c2f6287d3a/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/68db15b77027c67f9daea37a2a7ab29d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/68db15b77027c67f9daea37a2a7ab29d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/58c93c96c026fe7ce15965a84408344f/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/58c93c96c026fe7ce15965a84408344f/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/0f412d0124aac0d24ac009286a4db02c/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/0f412d0124aac0d24ac009286a4db02c/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/1c2a38d1672372ae75f1349454d3c298/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/1c2a38d1672372ae75f1349454d3c298/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/20c38c2442424af3dc92beeef63cc82d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/20c38c2442424af3dc92beeef63cc82d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/1b181f7f6381133c2739b320eaff4055/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/1b181f7f6381133c2739b320eaff4055/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/d703d9e9d06cec81c12d1d0a9df36a43/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/younminchan/.gradle/caches/transforms-3/d703d9e9d06cec81c12d1d0a9df36a43/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/6715fa07539eb018c28a5632050181c1/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/younminchan/.gradle/caches/transforms-3/6715fa07539eb018c28a5632050181c1/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/59bdedda09a049c61027ff15f3f11de0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/59bdedda09a049c61027ff15f3f11de0/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/younminchan/.gradle/caches/transforms-3/e8d3f4ee4f2c09e306d6310525173375/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/younminchan/.gradle/caches/transforms-3/e8d3f4ee4f2c09e306d6310525173375/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/younminchan/.gradle/caches/transforms-3/5b1fab84aeb1f1eabea9cfbb4efa4f2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/younminchan/.gradle/caches/transforms-3/5b1fab84aeb1f1eabea9cfbb4efa4f2a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/287a2689b092bd116715acf9ca28da66/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/287a2689b092bd116715acf9ca28da66/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/e5d35377a0385f82002af2f0c4eb039e/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/e5d35377a0385f82002af2f0c4eb039e/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/165214ce86d42ecd047bcb91ededb081/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/165214ce86d42ecd047bcb91ededb081/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/5ee87570fd1da91210368a35711ce6fb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/5ee87570fd1da91210368a35711ce6fb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/f3662e83ef7829f7f735ada90526b582/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/f3662e83ef7829f7f735ada90526b582/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/e38bcf560b2de0aea500f690c09d3db7/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/e38bcf560b2de0aea500f690c09d3db7/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/bcfd78c21a69608f3ae3afc41573255c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/younminchan/.gradle/caches/transforms-3/bcfd78c21a69608f3ae3afc41573255c/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/287a2689b092bd116715acf9ca28da66/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/287a2689b092bd116715acf9ca28da66/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/younminchan/.gradle/caches/transforms-3/ec75a5ef9cd8cff1061d37370f71c616/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/younminchan/.gradle/caches/transforms-3/f1959bf96fa7646ec067229fc59b8cae/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

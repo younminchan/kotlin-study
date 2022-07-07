@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_sub1.xml",
+        "source": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/res/layout/fragment_sub1.xml"
+    },
+    {
+        "merged": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_sub2.xml",
+        "source": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/res/layout/fragment_sub2.xml"
+    },
+    {
+        "merged": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml",
+        "source": "/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/src/main/res/layout/fragment_main.xml"
+    }
+]

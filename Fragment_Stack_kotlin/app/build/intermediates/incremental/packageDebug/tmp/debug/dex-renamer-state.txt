@@ -1,0 +1,19 @@
+#Thu Jul 07 11:12:49 KST 2022
+path.4=14/classes.dex
+path.3=13/classes.dex
+path.2=11/classes.dex
+path.1=0/classes.dex
+path.5=9/classes.dex
+path.0=classes.dex
+base.4=/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.3=/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+base.2=/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.1=/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+base.5=/Users/younminchan/Desktop/MinChan/Daily-study/Fragment_Stack_kotlin/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
