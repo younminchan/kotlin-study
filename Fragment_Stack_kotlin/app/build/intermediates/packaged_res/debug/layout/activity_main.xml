@@ -10,19 +10,10 @@
         android:id="@+id/fragment_main"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/fragment_sub"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <FrameLayout
-        android:id="@+id/fragment_sub"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/b_change_fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_main" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/b_change_fragment"
@@ -32,5 +23,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_sub" />
+        app:layout_constraintTop_toBottomOf="@+id/fragment_main" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

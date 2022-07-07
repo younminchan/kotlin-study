@@ -26,15 +26,11 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final FrameLayout fragmentMain;
 
-  @NonNull
-  public final FrameLayout fragmentSub;
-
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button bChangeFragment,
-      @NonNull FrameLayout fragmentMain, @NonNull FrameLayout fragmentSub) {
+      @NonNull FrameLayout fragmentMain) {
     this.rootView = rootView;
     this.bChangeFragment = bChangeFragment;
     this.fragmentMain = fragmentMain;
-    this.fragmentSub = fragmentSub;
   }
 
   @Override
@@ -76,14 +72,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.fragment_sub;
-      FrameLayout fragmentSub = ViewBindings.findChildViewById(rootView, id);
-      if (fragmentSub == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, bChangeFragment, fragmentMain,
-          fragmentSub);
+      return new ActivityMainBinding((ConstraintLayout) rootView, bChangeFragment, fragmentMain);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

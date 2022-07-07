@@ -2726,7 +2726,6 @@ id floating
 id forever
 id fragment_container_view_tag
 id fragment_main
-id fragment_sub
 id frost
 id fullscreen_header
 id ghost_view
