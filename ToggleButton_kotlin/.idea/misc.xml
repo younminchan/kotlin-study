@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/setting_switch_thumb.xml" value="0.182" />
+        <entry key="app/src/main/res/drawable/setting_switch_thumb_off.xml" value="0.182" />
+        <entry key="app/src/main/res/drawable/setting_switch_thumb_on.xml" value="0.182" />
+        <entry key="app/src/main/res/drawable/setting_switch_thumb_oㄹㄹ.xml" value="0.182" />
+        <entry key="app/src/main/res/drawable/setting_switch_track.xml" value="0.182" />
         <entry key="app/src/main/res/drawable/setting_switch_track_off.xml" value="0.182" />
         <entry key="app/src/main/res/drawable/setting_switch_track_on.xml" value="0.182" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22022242891615715" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>

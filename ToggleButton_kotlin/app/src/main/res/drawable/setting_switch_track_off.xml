@@ -4,7 +4,8 @@
     <size
         android:width="75dp"
         android:height="25dp" />
-    <solid android:color="#611c9095" />
+    <solid android:color="#61000000" />
+
 
     <!--테두리 사용X, 코드 백업-->
     <!--    <stroke-->
