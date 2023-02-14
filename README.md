@@ -140,5 +140,5 @@ ViewPager2 + TabLayout
 - 정리: https://minchanyoun.tistory.com/126  
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/ViewPager2_TabLayout_kotlin
 
-기업마다 사용하는 개발스킬 확인
+Jetpack compose UI
 - 정리:  
