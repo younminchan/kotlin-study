@@ -142,3 +142,5 @@ ViewPager2 + TabLayout
 
 Jetpack compose UI
 - 정리:  
+
+* 프로젝트에서 공부헀던 내용 추가예정
