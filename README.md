@@ -141,6 +141,10 @@ ViewPager2 + TabLayout
 - 코드: https://github.com/younminchan/kotlin-study/tree/main/ViewPager2_TabLayout_kotlin
 
 Jetpack compose UI
-- 정리:  
+- 정리: 
+
+Builder패턴 CommonPopup
+- 정리: 
+
 
 * 프로젝트에서 공부헀던 내용 추가예정
