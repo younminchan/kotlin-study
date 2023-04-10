@@ -146,5 +146,8 @@ Jetpack compose UI
 Builder패턴 CommonPopup
 - 정리: 
 
+Android WebView / SameSite="None" Secure 설정에 관하여
+- 정리: 
+
 
 * 프로젝트에서 공부헀던 내용 추가예정
