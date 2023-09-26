@@ -92,7 +92,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             intent.putExtra(key, remoteMessage.data.getValue(key))
         }
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP) // Activity Stack 을 경로만 남김(A-B-C-D-B => A-B)
-        val pendingIntent = PendingIntent.getActivity(this, uniId, intent, PendingIntent.FLAG_ONE_SHOT)
+        val pendingIntent = PendingIntent.getActivity(this, uniId, intent, PendingIntent.FLAG_ONE_SHOT or PendingIntent.FLAG_IMMUTABLE) //안드로이드 버전 대응 -> PendingIntent.FLAG_IMMUTABLE 추가해야함
 
 
         // 알림에 대한 UI 정보, 작업
