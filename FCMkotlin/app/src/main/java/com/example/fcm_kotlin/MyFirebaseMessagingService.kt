@@ -111,10 +111,12 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
     /** Token 가져오기 */
     fun getFirebaseToken() {
+        //비동기방식
         FirebaseMessaging.getInstance().token.addOnSuccessListener {
             Log.d(TAG, "token=${it}")
         }
 
+        //동기 방식
 //        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
 //                if (!task.isSuccessful) {
 //                    Log.d(TAG, "Fetching FCM registration token failed ${task.exception}")
