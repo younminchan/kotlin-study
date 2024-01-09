@@ -13,15 +13,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firebase_Cloud_FireStore_kotlin"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".TalkActivity"
+            android:configChanges="screenSize|screenLayout"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+
+
     </application>
 
 </manifest>
