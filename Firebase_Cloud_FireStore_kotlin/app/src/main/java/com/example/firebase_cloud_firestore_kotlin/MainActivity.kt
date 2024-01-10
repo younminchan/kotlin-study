@@ -11,6 +11,7 @@ import com.example.firebase_cloud_firestore_kotlin.data.MessageItem
 import com.example.firebase_cloud_firestore_kotlin.databinding.ActivityMainBinding
 import com.example.firebase_cloud_firestore_kotlin.util.FirestoreValue
 import com.example.firebase_cloud_firestore_kotlin.util.SharedPreferencesManager
+import com.example.firebase_cloud_firestore_kotlin.util.Utils
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -45,11 +46,11 @@ class MainActivity : AppCompatActivity() {
             var myName = "${binding.etMyName.text}"
 
             if (collectionName.isNullOrEmpty()) {
-                toastMsg("채팅방 이름을 입력해주세요")
+                Utils.toastMsg(this, "채팅방 이름을 입력해주세요")
                 return@setOnClickListener
             }
             if (myName.isNullOrEmpty()) {
-                toastMsg("유저 이름을 입력해주세요")
+                Utils.toastMsg(this, "유저 이름을 입력해주세요")
                 return@setOnClickListener
             }
 
@@ -61,33 +62,17 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    /** 토스트 메세지(중복방지) */
-    var toast: Toast? = null
-    private fun toastMsg(string: String) {
-        try {
-            val handler = Handler(Looper.getMainLooper())
-            handler.postDelayed(Runnable {
-                toast?.cancel()
-                toast = Toast.makeText(this, string, Toast.LENGTH_SHORT)
-                toast?.show()
-            }, 0)
-
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
-    }
-
     private fun setDocument(data: MessageItem) {
         FirebaseFirestore.getInstance()
             .collection("sampleCollection")
             .document(data.name)
             .set(data)
             .addOnSuccessListener {
-                toastMsg("$data 데이터 입력 성공!")
+                Utils.toastMsg(this, "$data 데이터 입력 성공!")
                 Log.e("YMC", "$data 데이터 입력 성공!")
             }
             .addOnFailureListener {
-                toastMsg("$data 데이터 입력 실패!")
+                Utils.toastMsg(this, "$data 데이터 입력 실패!")
                 Log.e("YMC", "$data 데이터 입력 실패!")
             }
     }
