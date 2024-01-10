@@ -11,6 +11,7 @@ import com.example.firebase_cloud_firestore_kotlin.data.MessageItem
 import com.example.firebase_cloud_firestore_kotlin.databinding.ActivityTalkBinding
 import com.example.firebase_cloud_firestore_kotlin.util.FirestoreValue
 import com.example.firebase_cloud_firestore_kotlin.util.SharedPreferencesManager
+import com.example.firebase_cloud_firestore_kotlin.util.Utils
 import com.google.firebase.firestore.CollectionReference
 import com.google.firebase.firestore.DocumentChange
 import com.google.firebase.firestore.FirebaseFirestore
@@ -82,6 +83,11 @@ class TalkActivity : AppCompatActivity() {
 
         /** 메세지 전송 */
         binding.btn.setOnClickListener {
+            if (binding.et.text.isNullOrEmpty()) {
+                Utils.toastMsg(this, "메세지를 입력해주세요.")
+                return@setOnClickListener
+            }
+
             var message = "${binding.et.text}"
             val calendar: Calendar = Calendar.getInstance()
             val time: String = String.format("%02d", calendar.get(Calendar.HOUR_OF_DAY)) + ":" + String.format("%02d", calendar.get(Calendar.MINUTE))
