@@ -146,8 +146,10 @@ Jetpack compose UI
 Builder패턴 CommonPopup
 - 정리: 
 
-Android WebView / SameSite="None" Secure 설정에 관하여
+Android WebView / SameSite="None" Secure 설정에 관하여  
 - 정리: 
 
+Firestore를 이용한 채팅메세지 프로그램  
+- 코드: https://github.com/younminchan/kotlin-study/tree/main/Firebase_Cloud_FireStore_kotlin    
 
 * 프로젝트에서 공부헀던 내용 추가예정
