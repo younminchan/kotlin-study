@@ -34,9 +34,9 @@ class MainActivity : AppCompatActivity() {
             val imm: InputMethodManager = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(binding.etQrGenerate.windowToken, 0) //KeyBoard 숨기기
 
-            if(binding.etQrGenerate.text.isNullOrEmpty()){
+            if (binding.etQrGenerate.text.isNullOrEmpty()) {
                 showToastMsg("생성할 QRcode 데이터를 입력해주세요.")
-            }else{
+            } else {
                 var ImageQRcode = generaterQRCode(binding.etQrGenerate.text.toString())
                 binding.ivQr.setImageBitmap(ImageQRcode)
             }
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         binding.tvQrScan.setOnClickListener {
             //권한 체크
             val permission = Manifest.permission.CAMERA
-            if(Utils.existsPermission(permission)) {
+            if (Utils.existsPermission(permission)) {
                 scanQrCode()
             } else {
                 permissionResult.launch(permission)
@@ -64,10 +64,10 @@ class MainActivity : AppCompatActivity() {
     /** TODO: QRCode 스캔 */
     private fun scanQrCode() {
         val intentIntegrator = IntentIntegrator(this)
-
-        intentIntegrator.setPrompt("안내선 안에 QR코드를 맞추면 자동으로 인식됩니다.") //QR코드 스캔 액티비티 하단에 띄울 텍스트
-        intentIntegrator.setOrientationLocked(false) // default가 세로모드인데 / 화면회전을 막을 것인지
-        intentIntegrator.setBeepEnabled(false)       //QR코드 스캔 시 소리를 낼 지 설정
+        intentIntegrator.setPrompt("안내선 안에 QR코드를 맞추면 자동으로 인식됩니다.") // QR코드 스캔 액티비티 하단에 띄울 텍스트
+        intentIntegrator.setOrientationLocked(false)                       // default가 세로모드인데 / 화면회전을 막을 것인지
+        intentIntegrator.setBeepEnabled(false)                             // QR코드 스캔 시 소리를 낼 지 설정
+        intentIntegrator.captureActivity = ScanActivity::class.java        // Scanner가 있는 Custom_activity 적용
         activityResult.launch(intentIntegrator.createScanIntent())
     }
 
@@ -80,9 +80,9 @@ class MainActivity : AppCompatActivity() {
         val intentResult: IntentResult? = IntentIntegrator.parseActivityResult(resultCode, data)
 
         // QR Code 성공
-        if(intentResult != null) {
+        if (intentResult != null) {
             // QR Code 값이 있는 경우
-            if(intentResult.contents != null) {
+            if (intentResult.contents != null) {
                 showToastMsg("인식된 QR-data: ${intentResult.contents}")
             }
             // QR Code 값이 없는 경우
@@ -105,6 +105,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /** Toast Message */
     private fun showToastMsg(msg: String) {
         toast.cancel()
         toast = Toast.makeText(this, msg, Toast.LENGTH_SHORT)
